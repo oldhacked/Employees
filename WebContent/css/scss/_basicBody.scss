@@ -1,0 +1,110 @@
+#page-wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+#bod{
+    
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+   
+    
+}
+
+body{
+ 
+    
+
+}
+
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+    @include animatedGradient;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 35px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    
+}
+
+
+
+b{
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	font-weight: 200;
+    font-size: 10px;
+
+
+}
+
+
+
+
+.tiny-image-name{
+	margin-top: -10px;
+}
+
+
+
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+a {
+    color: blue;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a {
+    color: blue;
+}
+a:visited {
+    color: blue;
+}
+
+
+a.morelink {
+    text-decoration:none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+

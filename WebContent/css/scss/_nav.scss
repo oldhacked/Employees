@@ -1,0 +1,239 @@
+
+
+
+#brand{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+    color: white !important;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    span{
+
+        color: #84D3E2;
+    }
+    // margin-left: 4px;
+}
+
+
+
+
+.navbar-fixed-top {
+    
+
+
+   
+   @include employGradient;
+    border: 0px solid transparent;
+    margin-bottom: -1px;
+   
+}
+
+.top-nav{
+     padding: 0 15px;
+}
+
+.top-nav>li {
+    display: inline-block;
+    float: left;
+}
+
+.top-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    
+
+
+}
+
+.top-nav>li>a:hover,
+.top-nav>li>a:focus,
+.top-nav>.open>a,
+.top-nav>.open>a:hover,
+.top-nav>.open>a:focus {
+    
+
+
+
+}
+
+.top-nav>.open>.dropdown-menu {
+    float: left;
+    position: absolute;
+    margin-top: 0;
+    border: 1px solid rgba(0,0,0,.15);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    @include employGradient;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+
+}
+
+.top-nav>.open>.dropdown-menu>li>a {
+    white-space: normal;
+}
+
+
+
+/* Side Navigation */
+
+@media(min-width:768px) {
+    .side-nav {
+        position: fixed;
+        top: 50px;
+        left: 0px;
+        width: 80px;
+        margin-left: 0px;
+        border: none;
+        border-radius: 0;
+        overflow-y: auto;
+        background-color: #384248;
+        bottom: 0;
+        overflow-x: hidden;
+        padding-bottom: 40px;
+    }
+
+    .side-nav>li {
+        width: 80px;
+    }
+
+    .side-nav li:hover,
+    .side-nav li:focus {
+        outline: none;
+        background-color: black !important;
+
+        #addPerson{
+            color: $samon;
+
+        }
+        #filter{ 
+            margin-top: 10px;
+            color: $aqua;
+
+        }
+        #stats{
+            color: $neonGreen;
+        }
+
+      
+    }
+
+}
+
+.side-nav>li>ul {
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a {
+    display: block;
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999;
+}
+
+.side-nav>li>ul>li>.navBtn:hover {
+    background-color: #fff;
+}
+
+
+
+
+
+
+.navBtn{
+    height: 50px;
+    width: 50px;
+
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+
+
+
+
+    span{
+        @include hCenter;
+        font-size: 20px;
+
+    }
+
+
+    
+}
+
+
+#addPerson{
+  color: #81868A;
+
+}
+#filter{ 
+    margin-top: 10px;
+    color: #81868A;
+
+}
+#stats{
+    color: #81868A;
+}
+
+
+
+
+
+
+#searchBarGroup{
+    position: absolute;
+    right: 90px;
+    max-width: 600px;
+
+
+}
+
+#searchBar{
+    color: white;
+    background-color: transparent;
+    border: 2px solid transparentize(#7CC5D5, .6);
+    outline: none;
+    margin: 10px 0px 6px 0px;
+    height: 25px;
+    max-width: auto !important;
+    z-index: 50;
+    border-radius: 0px;
+}
+
+#searchIcon{
+    color: transparentize(#7CC5D5, .6);
+   
+   
+
+}
+
+#goBtn{
+    position: absolute;
+    color: $aqua;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    right: -4px;
+    font-weight: 400px;
+    z-index: 200;
+    top: 6px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
